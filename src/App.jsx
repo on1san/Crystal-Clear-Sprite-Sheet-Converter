@@ -180,7 +180,7 @@ function App() {
          <header className={`${help ? "darken" : ""}`}>
             <img
                src="logo-left.png"
-               className="logo"
+               className="logo-left"
             />
             <h1 className="heading">
                <span>Crystal Clear Sprite Sheet</span>
@@ -189,13 +189,17 @@ function App() {
             </h1>
             <img
                src="logo-right.png"
-               className="logo"
+               className="logo-right"
             />
          </header>
 
          <main>
             <div className="description-box">
                <div className={`description ${help ? "darken" : ""}`}>
+                  <img
+                     src="web-app-manifest-512x512.png"
+                     className="little-guy"
+                  />
                   <span>Converts Crystal Clear Sprite sheets to <span className="highlight-2">separate assets</span></span>
                   <br />
                   <div className="stretch">
@@ -208,12 +212,12 @@ function App() {
                      <span >Download</span>
                      <span >Sprite sheets</span>
                      <span >from</span>
-                     <span >sigkill</span>
+                     <span >FM1337/FMCore/Sigkill</span>
                   </div>
                   <span>Click: <span className="public-template highlight-2">"USE PUBLIC TEMPLATE" ➡️</span></span>
                   <a href="https://inject.sigkill.tech/injector/sprite" target="_blank">Sprite Sheets Source</a>
                   <div className="stretch highlight-4">
-                     <span>Use</span> <a href="https://github.com/on1san/Custom-Player-Sprite-Switcher/releases/latest">CCSS Converter</a> <span>to add them to the game</span>
+                     <span>Use</span> <a href="https://github.com/on1san/Custom-Player-Sprite-Switcher/releases/latest">Custom Player Sprite</a> <span>to add them to gen1recomp</span>
                   </div>
                </div>
                <button className="help-button"
@@ -274,7 +278,17 @@ function App() {
          </main >
          <footer>The image files are not uploaded to any server. Everything runs in your browser locally.
             <br />
-            <b>CCSS Converter 2026</b>
+            <span className="footer-logo-bar">
+               <img
+                  src="icon-mini.png"
+                  className="little-guy-mini"
+               />
+               <span className="copyright">CCSS Converter 2026</span>
+               <img
+                  src="icon-mini.png"
+                  className="little-guy-mini"
+               />
+            </span>
          </footer>
       </>
    )

@@ -1,11 +1,11 @@
 @font-face {
-  font-family: geistpixel; 
-  src: url("GeistPixel-Regular-VariableFont_ELSH.ttf");
+  font-family: inter; 
+  src: url("/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
 
 @font-face {
   font-family: mozilla; 
-  src: url("MozillaText-VariableFont_wght.ttf");
+  src: url("/MozillaText-VariableFont_wght.ttf") format("truetype");
 }
 
 *{
@@ -26,8 +26,8 @@
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
   --sans: 'mozilla',system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: 'mozilla','Segoe UI', Roboto, sans-serif;
-  --mono: 'mozilla',ui-monospace, Consolas, monospace;
+  --heading: 'inter','mozilla','Segoe UI',  sans-serif;
+  --mono: 'inter',ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
@@ -51,6 +51,7 @@ html {
 body {
   margin: 0;
 }
+
 
 #root {
   width: 1126px;
