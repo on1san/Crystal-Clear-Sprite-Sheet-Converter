@@ -1,4 +1,4 @@
-<img src="https://media.discordapp.net/attachments/1537248476457345114/1537248559316074536/Screenshot_2026-08-13_015017.png?ex=6a7e59c9&is=6a7d0849&hm=3313c1e3f6e25df5518a9bef24f603c3de96fdf05cceedb089a4495981670636&=&format=webp&quality=lossless"/>
+<img src="https://media.discordapp.net/attachments/1537248476457345114/1537483825490169867/preview.png?ex=6a7f34e5&is=6a7de365&hm=2388a8134677a62129704269d83b6831fe01d0efd081a3b12ee51f11c4e0a118&=&format=webp&quality=lossless"/>
 
 # React + Vite
 
