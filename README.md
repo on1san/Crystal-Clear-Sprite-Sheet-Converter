@@ -1,3 +1,5 @@
+<img src="https://media.discordapp.net/attachments/1537248476457345114/1537248559316074536/Screenshot_2026-08-13_015017.png?ex=6a7e59c9&is=6a7d0849&hm=3313c1e3f6e25df5518a9bef24f603c3de96fdf05cceedb089a4495981670636&=&format=webp&quality=lossless"/>
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
